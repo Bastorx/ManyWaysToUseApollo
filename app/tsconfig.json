@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "baseUrl": ".",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "jsx": "react",
+      "outDir": "dist",
+      "lib": [
+        "esnext",
+        "dom"
+      ],
+      "moduleResolution": "node"
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }

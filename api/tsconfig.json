@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "target": "es6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@utils/*": ["utils/*"],
+      "*": ["node_modules", "./types/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
